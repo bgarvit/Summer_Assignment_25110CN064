@@ -12,5 +12,5 @@ int main()
     cout << "Enter the number to find its factorial: ";
     cin >> n;
     cout <<"The factorial of "<<n<<" is: " <<factorial(n);
-return 0;    
+return 0;
 }
