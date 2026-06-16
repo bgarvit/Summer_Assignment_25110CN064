@@ -15,7 +15,6 @@ int main() {
         for(int j=0;j<c;j++){
             b[i]+=a[i][j];}
             cout<< b[i];
-        cout <<endl;}
-        
+        cout <<endl;}    
     return 0;
 }

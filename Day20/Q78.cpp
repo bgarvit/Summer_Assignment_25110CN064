@@ -14,7 +14,7 @@ int main() {
         if(a[i][j]==a[j][i])
         add++;
     }}
-
+    //if number of elements above the main diagonal are equal to elements below diagonal then matrix is symmetric.
     if(add==r*r)
     cout <<"The matrix is symmetric";
     else

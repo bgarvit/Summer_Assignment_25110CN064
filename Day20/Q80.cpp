@@ -10,7 +10,7 @@ int main() {
         for(int j=0;j<c;j++){
         cin >> a[i][j];}}
     cout << "The column sum is:";
-    //sum of the columns of the matrix
+    //sum of the columns of the matrix.
     for(int j=0;j<c;j++){
         for(int i=0;i<r;i++){
             b[j]+=a[i][j];}

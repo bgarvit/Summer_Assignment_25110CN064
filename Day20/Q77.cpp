@@ -27,7 +27,7 @@ int main() {
         }}}
     else 
     {cout << "Multiplication not possible:";}
-    
+    //Display the multiplied matrix
     if(add>0){
     cout << "The multiplied matrix is:"<<endl;
     for(int i=0;i<r1;i++){
