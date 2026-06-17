@@ -14,7 +14,8 @@ int main(){
     while(i!=0){
         c[j]=ch[i-1];
         i--;
-        j++;}
+        j++;
+        }
     c[j]='\0';
     cout <<"The reverse string is:"<<c;
 return 0;

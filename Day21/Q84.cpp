@@ -10,7 +10,8 @@ int main(){
     while(ch[l]!='\0'){
     if(ch[l]>='a'&&ch[l]<='z'){
     ch[l]-=32;}
-    l++;}
+    l++;
+    }
     cout <<"The word in upperchase is :"<<ch;
 return 0;
 }

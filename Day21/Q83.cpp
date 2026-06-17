@@ -17,7 +17,8 @@ int main(){
             v++;}
     else if((ch[l] >= 'a' && ch[l] <= 'z') || (ch[l] >= 'A' && ch[l] <= 'Z')) {
             c++;}
-        l++;}
+        l++;
+        }
     cout <<"The vowels in the word :"<<v<<endl;
     cout <<"The consonants in the word are:"<<c;
 return 0;

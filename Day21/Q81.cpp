@@ -4,6 +4,7 @@ int main(){
     char ch[100];
     cout << "Enter the string:";
     cin >> ch;
+    
      int i=0;
     while(ch[i]!='\0'){
         i++;
