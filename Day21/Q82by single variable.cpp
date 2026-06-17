@@ -17,8 +17,7 @@ int main(){
         ch[l]=ch[r];
         ch[r]=temp;
         r--;
-        l++;
-    }
+        l++;}
     cout <<"The reverse string is:"<<ch;
 return 0;
 }
