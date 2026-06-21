@@ -42,7 +42,6 @@ int main(){
     // And then printing the single array which is the merged sorted array.
     cout << "The merged sorted array is: ";
     for(int i=0;i<n1+n2;i++){
-        cout<<" "<<ary[i];
-    }
+        cout<<" "<<ary[i];}
 return 0;
 }

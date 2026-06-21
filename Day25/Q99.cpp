@@ -17,8 +17,7 @@ int main(){
         strcpy(temp, chr[i]);
         strcpy(chr[i], chr[i+1]);
         strcpy(chr[i+1], temp);}
-    }
-    }
+    }}
     // printing the sorted names.
     cout <<"The sorted names are:"<<endl;
     for(int i=0;i<n;i++){

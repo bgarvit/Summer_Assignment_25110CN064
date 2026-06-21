@@ -22,7 +22,6 @@ int main(){
     }
     cout << "The sorted word by length are: "<<endl;
         for(int i=0;i<n;i++){
-            cout <<wrd[i]<<endl;
-        }
+            cout <<wrd[i]<<endl;}
     return 0;
 }
