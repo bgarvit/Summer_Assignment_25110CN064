@@ -14,7 +14,8 @@ void display(){
             for (int i = 0; i < dcount; i++){
                 cout << data[i] << " ";}
                 cout << "]\n";
-                cout << "Total Elements: " << dcount << "/100\n";}}
+                cout << "Total Elements: " << dcount << "/100\n";}
+            }
 void append(int value) {
         if (dcount >= 1000) {
             cout<<"\n[Error] Array Overflow! Cannot append "<< value<<".\n";}

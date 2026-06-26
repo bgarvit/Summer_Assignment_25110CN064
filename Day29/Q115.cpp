@@ -47,7 +47,7 @@ void countVowel(){
             if(text[i]=='a'||text[i]=='e'||text[i]=='i'||text[i]=='o'||text[i]=='u'||text[i]=='A'||text[i]=='E'||text[i]=='I'||text[i]=='O'||text[i]=='U'){
                 vowel++;}}
         cout<<"\n[System] Counted vowels are: "<<vowel<<endl;
-}
+    }
 };
 int main(){
     sttring opt;

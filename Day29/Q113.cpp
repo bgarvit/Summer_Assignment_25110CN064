@@ -30,7 +30,7 @@ void loadmemo(){
         cout<<"\n=====History=====\n";
         for(int i=0;i<memocount;i++){
             cout<<memo[i]<<endl;}}
-}
+    }
 };
 int main(){
     calculator calc;

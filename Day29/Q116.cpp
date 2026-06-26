@@ -108,7 +108,7 @@ int main(){
             return 0;
         }
         else{cout<<"Invalid input!!";}
-    }
+}
 while(choice!=5);
 return 0;
 }
